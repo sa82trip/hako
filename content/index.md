@@ -1,11 +1,9 @@
 ---
-title: 나의 위키
-description: GitHub + Quartz로 만든 개인 위키
+title: 箱(はこ)
+description: Personal Wiki with GitHub + Quartz
 tags:
   - 홈
 ---
-
-환영합니다! 이곳은 **GitHub + Quartz**로 만든 개인 위키입니다.
 
 ## 핵심 기능 둘러보기
 
