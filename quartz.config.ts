@@ -13,7 +13,7 @@ const config: QuartzConfig = {
     enableSPA: true,
     enablePopovers: true,
     locale: "ko-KR",
-    baseUrl: "sa82trip.github.io/wiki",
+    baseUrl: "sa82trip.github.io/hako",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
