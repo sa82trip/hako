@@ -1,3 +1,4 @@
+# redeploy trigger (no-op) 2026-07-03
 name: Deploy Quartz site to GitHub Pages
 
 on:
