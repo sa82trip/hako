@@ -25,7 +25,7 @@ jobs:
       - name: Authenticate for private submodule
         run: git config --global url."https://x-access-token:${{ secrets.CONTENT_PAT }}@github.com/".insteadOf "https://github.com/"
       - name: Pull latest content   # ← 추가. 고정 포인터 무시하고 content 최신 커밋 사용
-        run: git submodule update --remote --recursive
+        run: git submodule update --init --remote --recursive
       - run: npm ci
       - run: npx quartz build
       - name: Upload artifact
