@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch:   # ← hako-contents 에서 content push 시 트리거 받음
 
 permissions:
   contents: read

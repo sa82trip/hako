@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     locale: "ko-KR",
     baseUrl: "https://sa82trip.github.io/hako",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", ".github"],
     defaultDateType: "modified",
     theme: {
       fontOrigin: "googleFonts",
